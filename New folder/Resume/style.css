@@ -1,0 +1,108 @@
+/* styles for my resume */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Default text styling */
+body, h1, h2, h3, h4, h5, p, ul, li {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+}
+
+/* Main resume container */
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Name at the top */
+#name {
+    font-size: 3em;
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+/* Title below the name */
+#title {
+    font-size: 1.5em;
+    color: #33485e;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+/* Contact information list */
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contact information items */
+.menu li {
+    display: inline;
+    font-size: 1em;
+}
+
+/* Section titles */
+.sectionheader {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 400;
+    margin: 20px 0 10px 0;
+    width: 70%;
+    min-width: 300px;
+}
+
+/* Job titles */
+.jobtitle {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* Job organizations */
+.organization {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+/* Job dates */
+.date {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 2px 0 0 0;
+}
+
+/* Job descriptions */
+.description {
+    margin: 10px 0;
+}
+
+/* Education list */
+#degrees {
+    margin: 5px 0 0 0;
+}
+
+/* Skills list */
+#do {
+    margin: 5px 0 0 0;
+}
+
+/* Introduction at the top */
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
