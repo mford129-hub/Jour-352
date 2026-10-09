@@ -1,9 +1,9 @@
 /* styles for my resume */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 /* Default text styling */
-body, h1, h2, h3, h4, h5, p, ul, li {
+body, p, ul, li {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 1em;
     color: #444;
@@ -20,6 +20,7 @@ body, h1, h2, h3, h4, h5, p, ul, li {
 
 /* Name at the top */
 #name {
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 3em;
     color: #33485e;
     text-transform: uppercase;
@@ -28,6 +29,7 @@ body, h1, h2, h3, h4, h5, p, ul, li {
     width: 60%;
     min-width: 300px;
     margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 /* Title below the name */
@@ -35,13 +37,14 @@ body, h1, h2, h3, h4, h5, p, ul, li {
     font-size: 1.5em;
     color: #33485e;
     font-weight: 600;
+    text-transform: uppercase;
     text-align: center;
     margin: 20px 0 0 0;
 }
 
 /* Contact information list */
 .menu {
-    margin: 0;
+    margin: 5px 0 0 0;
     padding: 0;
     text-align: center;
 }
@@ -50,6 +53,7 @@ body, h1, h2, h3, h4, h5, p, ul, li {
 .menu li {
     display: inline;
     font-size: 1em;
+    margin-right: 15px;
 }
 
 /* Section titles */
@@ -60,6 +64,7 @@ body, h1, h2, h3, h4, h5, p, ul, li {
     color: white;
     font-weight: 400;
     margin: 20px 0 10px 0;
+    padding: 5px 10px;
     width: 70%;
     min-width: 300px;
 }
@@ -68,6 +73,7 @@ body, h1, h2, h3, h4, h5, p, ul, li {
 .jobtitle {
     font-size: 1.5em;
     font-weight: 600;
+    margin-top: 8px;
 }
 
 /* Job organizations */
@@ -87,6 +93,7 @@ body, h1, h2, h3, h4, h5, p, ul, li {
 /* Job descriptions */
 .description {
     margin: 10px 0;
+    line-height: 1.4;
 }
 
 /* Education list */
@@ -97,6 +104,7 @@ body, h1, h2, h3, h4, h5, p, ul, li {
 /* Skills list */
 #do {
     margin: 5px 0 0 0;
+    line-height: 1.5;
 }
 
 /* Introduction at the top */
@@ -105,4 +113,5 @@ body, h1, h2, h3, h4, h5, p, ul, li {
     min-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
