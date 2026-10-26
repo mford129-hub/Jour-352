@@ -1,66 +1,182 @@
 
-/* This CSS styles my webpage */
-
+/* Main page styles */
 body {
-    background-color: #f4f0e8;
-    color: #222222;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1e8;
+    color: #292929;
 }
 
+/* Centers the article and keeps it in one column */
 #page-wrapper {
-    width: 80%;
     max-width: 850px;
     margin: 0 auto;
-    background-color: white;
-    padding: 20px;
+    padding: 25px;
+    background-color: #ffffff;
 }
 
-#banner {
-    background-color: #183d32;
+/* Garden & Gun style banner */
+#masthead {
+    background-color: #17452b;
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 25px 15px;
+    margin-bottom: 30px;
 }
 
+.site-name {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.masthead-subtitle {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+/* Main headline */
 h1 {
-    font-family: Georgia, serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 36px;
+    line-height: 1.2;
+    color: #17452b;
+    margin-bottom: 15px;
 }
 
-h2 {
-    font-family: Georgia, serif;
-    font-size: 25px;
-    color: #183d32;
-}
-
-p {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+/* Article introduction */
+.intro {
+    font-size: 18px;
     line-height: 1.6;
+    font-style: italic;
+    color: #555555;
 }
 
+/* Author and publication date */
 #byline {
-    font-size: 13px;
+    font-size: 14px;
     color: #666666;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 8px 0;
     margin: 20px 0;
 }
 
-img {
-    max-width: 100%;
+#byline p {
+    margin: 0;
+}
+
+/* Article images and captions */
+figure {
+    margin: 25px 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
     height: auto;
 }
 
-.caption {
-    font-size: 12px;
+figcaption {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #666666;
+    margin-top: 8px;
+}
+
+/* Section headings */
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+    line-height: 1.3;
+    color: #17452b;
+    border-bottom: 2px solid #c7a64b;
+    padding-bottom: 7px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+/* Article paragraphs */
+article p {
+    margin-bottom: 18px;
+}
+
+/* Pull quote */
+blockquote {
+    background-color: #f4f1e8;
+    border-left: 5px solid #c7a64b;
+    margin: 30px 0;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1.5;
+    font-style: italic;
+    color: #17452b;
+}
+
+blockquote span {
+    display: block;
+    margin-top: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #555555;
+}
+
+/* Related story links */
+#related-stories {
+    margin-top: 35px;
+    padding: 20px;
+    background-color: #f8f7f2;
+}
+
+#related-stories ul {
+    padding-left: 22px;
+}
+
+#related-stories li {
+    margin-bottom: 12px;
+}
+
+a {
+    color: #17452b;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #a17d25;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #dddddd;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 13px;
     color: #666666;
 }
 
-blockquote {
-    background-color: #f4f0e8;
-    border-left: 5px solid #183d32;
-    padding: 15px;
-    font-family: Georgia, serif;
-    font-size: 22px;
-    font-style: italic;
+/* Makes the page fit smaller screens */
+@media (max-width: 600px) {
+    #page-wrapper {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    blockquote {
+        font-size: 19px;
+    }
 }
