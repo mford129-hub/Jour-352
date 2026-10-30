@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f4f0e6;
+    color: #242820;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fffdf8;
+    min-height: 100vh;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.08);
+}
+
+.masthead {
+    background: #173b2b;
+    color: #fffdf8;
+    text-align: center;
+    padding: 24px 20px;
+    border-bottom: 5px solid #c6a65b;
+}
+
+.magazine-name {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.magazine-tagline {
+    margin: 2px 0 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 35px 28px 50px;
+}
+
+h1,
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.2;
+}
+
+h1 {
+    color: #173b2b;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    margin: 0 0 18px;
+}
+
+.dek {
+    color: #55594f;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-left: 4px solid #c6a65b;
+    padding-left: 18px;
+}
+
+.byline {
+    margin: 24px 0 30px;
+    padding: 12px 0;
+    border-top: 1px solid #d7d1c3;
+    border-bottom: 1px solid #d7d1c3;
+    color: #55594f;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.byline p {
+    margin: 2px 0;
+}
+
+h2 {
+    color: #173b2b;
+    font-size: 1.8rem;
+    margin: 42px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #c6a65b;
+}
+
+p {
+    margin: 0 0 1.25em;
+}
+
+figure {
+    margin: 28px 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d7d1c3;
+}
+
+figcaption {
+    color: #62645c;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-top: 7px;
+}
+
+blockquote {
+    margin: 34px 0;
+    padding: 22px 26px;
+    background: #edf0e8;
+    border-left: 6px solid #c6a65b;
+    color: #173b2b;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.45rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    color: #55594f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+.related-links {
+    margin-top: 48px;
+    padding: 20px 24px;
+    background: #f4f0e6;
+    border-top: 3px solid #173b2b;
+}
+
+.related-links h2 {
+    margin-top: 0;
+}
+
+.related-links ul {
+    padding-left: 22px;
+}
+
+a {
+    color: #1d5b40;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    color: #8a6826;
+}
+
+footer {
+    padding: 20px;
+    background: #173b2b;
+    color: #fffdf8;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 26px 18px 38px;
+    }
+
+    .magazine-name {
+        font-size: 24px;
+    }
+
+    blockquote {
+        padding: 18px;
+        font-size: 1.25rem;
+    }
+}
