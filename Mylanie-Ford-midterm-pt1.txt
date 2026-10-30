@@ -1,0 +1,29 @@
+1. Google is the best search engine in the world.
+
+2. A DIV tag is used to group things together on a webpage.
+3. The basic structure of an HTML page:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+
+4.The head section.
+
+5.The body section.
+
+6.<div class="graphicbox"></div>
+<div id="name"></div>
+7.
+<div id="apples" class="fruit"></div>
+8.
+.fruit {
+color: #000000;
+}
+
+9.img
+10. Media queries help a website look good on different screen sizes, like phones and computers.
