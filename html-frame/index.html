@@ -1,59 +1,127 @@
-```html
-<!-- Chapter One -->
-<div class="story">
-    <h2>Chapter One: Introduction</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <p>
-        This is where I will introduce my topic and give readers
-        an idea of what my story will be about. I will also explain
-        why I chose this topic and why it is important.
-    </p>
+    <title>My Story Template</title>
 
-    <p>
-        Here, I will continue introducing my story by adding
-        background information and details that help readers
-        understand the subject.
-    </p>
-</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-<!-- Photo and Caption -->
-<div class="story-image">
-    <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85"
-         alt="Books and notebook on a desk"
-         class="img-fluid">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <p class="caption">
-        Photo caption: This is where I will describe my photo
-        and explain how it connects to my story.
-    </p>
-</div>
+<body>
 
-<!-- Chapter Two -->
-<div class="story">
-    <h2>Chapter Two: More Details</h2>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Stories</a>
 
-    <p>
-        This is where I will continue developing my story by
-        adding more information, examples, and details about
-        my topic.
-    </p>
-</div>
+        <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!-- Three Column Row -->
-<div class="row three-columns">
-    <div class="col-md-4">
-        <h3>Section One</h3>
-        <p>This is where I will add information about my first point.</p>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Headline and Byline -->
+        <div class="story-header">
+            <h1>Stories Worth Sharing</h1>
+            <p class="byline">By Mylanie Ford</p>
+        </div>
+
+        <!-- Chapter One -->
+        <div class="story">
+            <h2>Chapter One: Introduction</h2>
+
+            <p>
+                This is where I will introduce my topic and explain
+                what my story will be about. I will also share why
+                I chose this topic and why it matters to my readers.
+            </p>
+
+            <p>
+                Here, I will continue introducing my story by adding
+                background information and details about my topic.
+            </p>
+        </div>
+
+        <!-- Photo and Caption -->
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85"
+                 alt="Books and notebook on a desk"
+                 class="img-fluid">
+
+            <p class="caption">
+                Photo caption: This is where I will describe my photo
+                and explain how it connects to my story.
+            </p>
+        </div>
+
+        <!-- Chapter Two -->
+        <div class="story">
+            <h2>Chapter Two: More Details</h2>
+
+            <p>
+                This is where I will continue developing my story.
+                I will add more paragraphs, details, and information
+                to help readers better understand my topic.
+            </p>
+        </div>
+
+        <!-- Three Column Row -->
+        <div class="row three-columns">
+
+            <div class="col-md-4">
+                <h3>Section One</h3>
+                <p>This is where I will add information about my first point.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Section Two</h3>
+                <p>This is where I will discuss my second point.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Section Three</h3>
+                <p>This is where I will include my final point and any additional details.</p>
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="col-md-4">
-        <h3>Section Two</h3>
-        <p>This is where I will discuss my second point.</p>
-    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>My Stories | 2026</p>
+    </footer>
 
-    <div class="col-md-4">
-        <h3>Section Three</h3>
-        <p>This is where I will include my final point or additional details.</p>
-    </div>
-</div>
-```
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
