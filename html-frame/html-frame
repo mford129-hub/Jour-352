@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Story Template</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Stories</a>
+
+        <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Headline and Byline -->
+        <div class="story-header">
+            <h1>Stories Worth Sharing</h1>
+            <p class="byline">By Your Name</p>
+        </div>
+
+        <!-- Chapter One -->
+        <div class="story">
+            <h2>Chapter One: Introduction</h2>
+
+            <p>
+                This is where the introduction to your story will go.
+                You can add information about your topic and explain
+                why it is important to readers.
+            </p>
+
+            <p>
+                This is another paragraph where you can continue
+                explaining your story.
+            </p>
+        </div>
+
+        <!-- Photo and Caption -->
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85"
+                 alt="Books and notebook on a desk"
+                 class="img-fluid">
+
+            <p class="caption">
+                Photo caption: Add a description of your photo here.
+            </p>
+        </div>
+
+        <!-- Chapter Two -->
+        <div class="story">
+            <h2>Chapter Two: More Details</h2>
+
+            <p>
+                Continue your story here. You can add more paragraphs,
+                details, and information depending on the assignment.
+            </p>
+        </div>
+
+        <!-- Optional Three Column Row -->
+        <div class="row three-columns">
+            <div class="col-md-4">
+                <h3>Section One</h3>
+                <p>Add information here.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Section Two</h3>
+                <p>Add information here.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Section Three</h3>
+                <p>Add information here.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>My Stories | 2026</p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
