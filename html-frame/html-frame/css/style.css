@@ -1,0 +1,58 @@
+/* Main page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Navigation bar */
+.navbar {
+    margin-bottom: 40px;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+}
+
+/* Main headline */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Byline */
+.byline {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+/* Chapter headings */
+h2 {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 17px;
+}
+
+/* Photo caption */
+figcaption {
+    font-size: 13px;
+    color: gray;
+    margin-top: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
