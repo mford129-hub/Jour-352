@@ -1,4 +1,4 @@
-/* Main page style */
+/* Main page */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f7f3;
@@ -6,12 +6,12 @@ body {
     line-height: 1.7;
 }
 
-/* Navigation bar */
+/* Navigation */
 .navbar {
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
-/* Main container */
+/* Main content */
 .container {
     max-width: 950px;
 }
@@ -19,26 +19,28 @@ body {
 /* Headline and byline */
 .story-header {
     text-align: center;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
-h1 {
+.story-header h1 {
     font-family: Georgia, serif;
     font-size: 42px;
     margin-bottom: 10px;
 }
 
 .byline {
-    color: gray;
-    font-size: 14px;
+    color: #777777;
+    font-size: 15px;
+    text-align: center;
 }
 
 /* Story sections */
 .story {
-    margin-bottom: 35px;
+    max-width: 750px;
+    margin: 35px auto;
 }
 
-h2 {
+.story h2 {
     font-family: Georgia, serif;
     font-size: 28px;
     margin-bottom: 18px;
@@ -48,26 +50,29 @@ p {
     font-size: 17px;
 }
 
-/* Story photograph */
+/* Photo */
 .story-image {
-    margin: 35px 0;
+    max-width: 750px;
+    margin: 35px auto;
+    text-align: center;
 }
 
 .story-image img {
-    width: 100%;
+    width: 75%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .caption {
-    font-size: 13px;
     color: gray;
+    font-size: 13px;
     margin-top: 10px;
 }
 
-/* Three-column section */
+/* Three columns */
 .three-columns {
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin: 40px 0;
 }
 
 .three-columns h3 {
@@ -77,13 +82,14 @@ p {
 
 /* Footer */
 .footer {
-    background-color: #333333;
+    background-color: #343a40;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
 }
 
 .footer p {
     margin: 0;
 }
+   
+  
