@@ -1,58 +1,89 @@
 /* Main page style */
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #f8f7f3;
     color: #333333;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* Navigation bar */
 .navbar {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 /* Main container */
 .container {
-    max-width: 900px;
+    max-width: 950px;
 }
 
-/* Main headline */
+/* Headline and byline */
+.story-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 h1 {
     font-family: Georgia, serif;
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 10px;
 }
 
-/* Byline */
 .byline {
     color: gray;
     font-size: 14px;
+}
+
+/* Story sections */
+.story {
     margin-bottom: 35px;
 }
 
-/* Chapter headings */
 h2 {
     font-family: Georgia, serif;
-    font-size: 26px;
-    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 18px;
 }
 
-/* Paragraphs */
 p {
     font-size: 17px;
 }
 
-/* Photo caption */
-figcaption {
+/* Story photograph */
+.story-image {
+    margin: 35px 0;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
     font-size: 13px;
     color: gray;
-    margin-top: 8px;
+    margin-top: 10px;
+}
+
+/* Three-column section */
+.three-columns {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.three-columns h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
 }
 
 /* Footer */
-footer {
+.footer {
     background-color: #333333;
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
 }
